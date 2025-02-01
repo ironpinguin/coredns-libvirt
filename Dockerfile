@@ -1,7 +1,7 @@
-ARG DEBIAN_IMAGE=golang:1.23.1-bookworm
+ARG DEBIAN_IMAGE=golang:1.23.5-bookworm
 ARG BASE=gcr.io/distroless/static-debian11:nonroot
-ARG COREDNS_VERSION=v1.11.3
-ARG COREDNS_LIBVIRT_VERSION=v0.1.1
+ARG COREDNS_VERSION=v1.12.0
+ARG COREDNS_LIBVIRT_VERSION=v0.1.2
 FROM ${DEBIAN_IMAGE} AS build
 SHELL [ "/bin/sh", "-ec" ]
 
