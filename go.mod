@@ -7,7 +7,7 @@ require (
 	github.com/coredns/coredns v1.12.2
 	github.com/miekg/dns v1.1.66
 	github.com/pkg/errors v0.9.1
-	libvirt.org/go/libvirt v1.11004.0
+	libvirt.org/go/libvirt v1.11005.0
 )
 
 require (
